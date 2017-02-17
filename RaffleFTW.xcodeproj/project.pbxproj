@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CFB3AF81E577A44001645F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3AF71E577A44001645F3 /* main.m */; };
+		9CFB3AFB1E577A44001645F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3AFA1E577A44001645F3 /* AppDelegate.m */; };
+		9CFB3AFE1E577A44001645F3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3AFD1E577A44001645F3 /* FirstViewController.m */; };
+		9CFB3B011E577A44001645F3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3B001E577A44001645F3 /* SecondViewController.m */; };
+		9CFB3B041E577A44001645F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFB3B021E577A44001645F3 /* Main.storyboard */; };
+		9CFB3B061E577A44001645F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CFB3B051E577A44001645F3 /* Assets.xcassets */; };
+		9CFB3B091E577A44001645F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFB3B071E577A44001645F3 /* LaunchScreen.storyboard */; };
+		9CFB3B141E577A44001645F3 /* RaffleFTWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3B131E577A44001645F3 /* RaffleFTWTests.m */; };
+		9CFB3B1F1E577A44001645F3 /* RaffleFTWUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3B1E1E577A44001645F3 /* RaffleFTWUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CFB3B101E577A44001645F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CFB3AEB1E577A44001645F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CFB3AF21E577A44001645F3;
+			remoteInfo = RaffleFTW;
+		};
+		9CFB3B1B1E577A44001645F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CFB3AEB1E577A44001645F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CFB3AF21E577A44001645F3;
+			remoteInfo = RaffleFTW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CFB3AF31E577A44001645F3 /* RaffleFTW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaffleFTW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CFB3AF71E577A44001645F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CFB3AF91E577A44001645F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CFB3AFA1E577A44001645F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CFB3AFC1E577A44001645F3 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		9CFB3AFD1E577A44001645F3 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		9CFB3AFF1E577A44001645F3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9CFB3B001E577A44001645F3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9CFB3B031E577A44001645F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CFB3B051E577A44001645F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CFB3B081E577A44001645F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CFB3B0A1E577A44001645F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CFB3B0F1E577A44001645F3 /* RaffleFTWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaffleFTWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CFB3B131E577A44001645F3 /* RaffleFTWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaffleFTWTests.m; sourceTree = "<group>"; };
+		9CFB3B151E577A44001645F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CFB3B1A1E577A44001645F3 /* RaffleFTWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaffleFTWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CFB3B1E1E577A44001645F3 /* RaffleFTWUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaffleFTWUITests.m; sourceTree = "<group>"; };
+		9CFB3B201E577A44001645F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CFB3AF01E577A44001645F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFB3B0C1E577A44001645F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFB3B171E577A44001645F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CFB3AEA1E577A44001645F3 = {
+			isa = PBXGroup;
+			children = (
+				9CFB3AF51E577A44001645F3 /* RaffleFTW */,
+				9CFB3B121E577A44001645F3 /* RaffleFTWTests */,
+				9CFB3B1D1E577A44001645F3 /* RaffleFTWUITests */,
+				9CFB3AF41E577A44001645F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CFB3AF41E577A44001645F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CFB3AF31E577A44001645F3 /* RaffleFTW.app */,
+				9CFB3B0F1E577A44001645F3 /* RaffleFTWTests.xctest */,
+				9CFB3B1A1E577A44001645F3 /* RaffleFTWUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CFB3AF51E577A44001645F3 /* RaffleFTW */ = {
+			isa = PBXGroup;
+			children = (
+				9CFB3AF91E577A44001645F3 /* AppDelegate.h */,
+				9CFB3AFA1E577A44001645F3 /* AppDelegate.m */,
+				9CFB3AFC1E577A44001645F3 /* FirstViewController.h */,
+				9CFB3AFD1E577A44001645F3 /* FirstViewController.m */,
+				9CFB3AFF1E577A44001645F3 /* SecondViewController.h */,
+				9CFB3B001E577A44001645F3 /* SecondViewController.m */,
+				9CFB3B021E577A44001645F3 /* Main.storyboard */,
+				9CFB3B051E577A44001645F3 /* Assets.xcassets */,
+				9CFB3B071E577A44001645F3 /* LaunchScreen.storyboard */,
+				9CFB3B0A1E577A44001645F3 /* Info.plist */,
+				9CFB3AF61E577A44001645F3 /* Supporting Files */,
+			);
+			path = RaffleFTW;
+			sourceTree = "<group>";
+		};
+		9CFB3AF61E577A44001645F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CFB3AF71E577A44001645F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CFB3B121E577A44001645F3 /* RaffleFTWTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CFB3B131E577A44001645F3 /* RaffleFTWTests.m */,
+				9CFB3B151E577A44001645F3 /* Info.plist */,
+			);
+			path = RaffleFTWTests;
+			sourceTree = "<group>";
+		};
+		9CFB3B1D1E577A44001645F3 /* RaffleFTWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CFB3B1E1E577A44001645F3 /* RaffleFTWUITests.m */,
+				9CFB3B201E577A44001645F3 /* Info.plist */,
+			);
+			path = RaffleFTWUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CFB3AF21E577A44001645F3 /* RaffleFTW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CFB3B231E577A44001645F3 /* Build configuration list for PBXNativeTarget "RaffleFTW" */;
+			buildPhases = (
+				9CFB3AEF1E577A44001645F3 /* Sources */,
+				9CFB3AF01E577A44001645F3 /* Frameworks */,
+				9CFB3AF11E577A44001645F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaffleFTW;
+			productName = RaffleFTW;
+			productReference = 9CFB3AF31E577A44001645F3 /* RaffleFTW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CFB3B0E1E577A44001645F3 /* RaffleFTWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CFB3B261E577A44001645F3 /* Build configuration list for PBXNativeTarget "RaffleFTWTests" */;
+			buildPhases = (
+				9CFB3B0B1E577A44001645F3 /* Sources */,
+				9CFB3B0C1E577A44001645F3 /* Frameworks */,
+				9CFB3B0D1E577A44001645F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CFB3B111E577A44001645F3 /* PBXTargetDependency */,
+			);
+			name = RaffleFTWTests;
+			productName = RaffleFTWTests;
+			productReference = 9CFB3B0F1E577A44001645F3 /* RaffleFTWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CFB3B191E577A44001645F3 /* RaffleFTWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CFB3B291E577A44001645F3 /* Build configuration list for PBXNativeTarget "RaffleFTWUITests" */;
+			buildPhases = (
+				9CFB3B161E577A44001645F3 /* Sources */,
+				9CFB3B171E577A44001645F3 /* Frameworks */,
+				9CFB3B181E577A44001645F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CFB3B1C1E577A44001645F3 /* PBXTargetDependency */,
+			);
+			name = RaffleFTWUITests;
+			productName = RaffleFTWUITests;
+			productReference = 9CFB3B1A1E577A44001645F3 /* RaffleFTWUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CFB3AEB1E577A44001645F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bella Voce Productions";
+				TargetAttributes = {
+					9CFB3AF21E577A44001645F3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BU3R4YBAT8;
+						ProvisioningStyle = Automatic;
+					};
+					9CFB3B0E1E577A44001645F3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BU3R4YBAT8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9CFB3AF21E577A44001645F3;
+					};
+					9CFB3B191E577A44001645F3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BU3R4YBAT8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9CFB3AF21E577A44001645F3;
+					};
+				};
+			};
+			buildConfigurationList = 9CFB3AEE1E577A44001645F3 /* Build configuration list for PBXProject "RaffleFTW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CFB3AEA1E577A44001645F3;
+			productRefGroup = 9CFB3AF41E577A44001645F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CFB3AF21E577A44001645F3 /* RaffleFTW */,
+				9CFB3B0E1E577A44001645F3 /* RaffleFTWTests */,
+				9CFB3B191E577A44001645F3 /* RaffleFTWUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CFB3AF11E577A44001645F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFB3B091E577A44001645F3 /* LaunchScreen.storyboard in Resources */,
+				9CFB3B061E577A44001645F3 /* Assets.xcassets in Resources */,
+				9CFB3B041E577A44001645F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFB3B0D1E577A44001645F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFB3B181E577A44001645F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CFB3AEF1E577A44001645F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFB3B011E577A44001645F3 /* SecondViewController.m in Sources */,
+				9CFB3AFB1E577A44001645F3 /* AppDelegate.m in Sources */,
+				9CFB3AFE1E577A44001645F3 /* FirstViewController.m in Sources */,
+				9CFB3AF81E577A44001645F3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFB3B0B1E577A44001645F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFB3B141E577A44001645F3 /* RaffleFTWTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFB3B161E577A44001645F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFB3B1F1E577A44001645F3 /* RaffleFTWUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CFB3B111E577A44001645F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CFB3AF21E577A44001645F3 /* RaffleFTW */;
+			targetProxy = 9CFB3B101E577A44001645F3 /* PBXContainerItemProxy */;
+		};
+		9CFB3B1C1E577A44001645F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CFB3AF21E577A44001645F3 /* RaffleFTW */;
+			targetProxy = 9CFB3B1B1E577A44001645F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CFB3B021E577A44001645F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CFB3B031E577A44001645F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CFB3B071E577A44001645F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CFB3B081E577A44001645F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CFB3B211E577A44001645F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CFB3B221E577A44001645F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CFB3B241E577A44001645F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BU3R4YBAT8;
+				INFOPLIST_FILE = RaffleFTW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellavoceproductions.RaffleFTW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CFB3B251E577A44001645F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BU3R4YBAT8;
+				INFOPLIST_FILE = RaffleFTW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellavoceproductions.RaffleFTW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9CFB3B271E577A44001645F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BU3R4YBAT8;
+				INFOPLIST_FILE = RaffleFTWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellavoceproductions.RaffleFTWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaffleFTW.app/RaffleFTW";
+			};
+			name = Debug;
+		};
+		9CFB3B281E577A44001645F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BU3R4YBAT8;
+				INFOPLIST_FILE = RaffleFTWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellavoceproductions.RaffleFTWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaffleFTW.app/RaffleFTW";
+			};
+			name = Release;
+		};
+		9CFB3B2A1E577A44001645F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BU3R4YBAT8;
+				INFOPLIST_FILE = RaffleFTWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellavoceproductions.RaffleFTWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RaffleFTW;
+			};
+			name = Debug;
+		};
+		9CFB3B2B1E577A44001645F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BU3R4YBAT8;
+				INFOPLIST_FILE = RaffleFTWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellavoceproductions.RaffleFTWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RaffleFTW;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CFB3AEE1E577A44001645F3 /* Build configuration list for PBXProject "RaffleFTW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFB3B211E577A44001645F3 /* Debug */,
+				9CFB3B221E577A44001645F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CFB3B231E577A44001645F3 /* Build configuration list for PBXNativeTarget "RaffleFTW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFB3B241E577A44001645F3 /* Debug */,
+				9CFB3B251E577A44001645F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CFB3B261E577A44001645F3 /* Build configuration list for PBXNativeTarget "RaffleFTWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFB3B271E577A44001645F3 /* Debug */,
+				9CFB3B281E577A44001645F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CFB3B291E577A44001645F3 /* Build configuration list for PBXNativeTarget "RaffleFTWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFB3B2A1E577A44001645F3 /* Debug */,
+				9CFB3B2B1E577A44001645F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CFB3AEB1E577A44001645F3 /* Project object */;
+}
