@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		9CFB3AF81E577A44001645F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3AF71E577A44001645F3 /* main.m */; };
 		9CFB3AFB1E577A44001645F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3AFA1E577A44001645F3 /* AppDelegate.m */; };
-		9CFB3AFE1E577A44001645F3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3AFD1E577A44001645F3 /* FirstViewController.m */; };
+		9CFB3AFE1E577A44001645F3 /* RaffleEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3AFD1E577A44001645F3 /* RaffleEntryViewController.m */; };
 		9CFB3B011E577A44001645F3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3B001E577A44001645F3 /* SecondViewController.m */; };
 		9CFB3B041E577A44001645F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFB3B021E577A44001645F3 /* Main.storyboard */; };
 		9CFB3B061E577A44001645F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CFB3B051E577A44001645F3 /* Assets.xcassets */; };
 		9CFB3B091E577A44001645F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFB3B071E577A44001645F3 /* LaunchScreen.storyboard */; };
 		9CFB3B141E577A44001645F3 /* RaffleFTWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3B131E577A44001645F3 /* RaffleFTWTests.m */; };
 		9CFB3B1F1E577A44001645F3 /* RaffleFTWUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3B1E1E577A44001645F3 /* RaffleFTWUITests.m */; };
+		9CFB3B2E1E577F78001645F3 /* RaffleEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3B2D1E577F78001645F3 /* RaffleEditViewController.m */; };
+		9CFB3B341E57805E001645F3 /* RaffleConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3B331E57805E001645F3 /* RaffleConfirmViewController.m */; };
+		9CFB3B371E578230001645F3 /* RaffleWinnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3B361E578230001645F3 /* RaffleWinnerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +43,8 @@
 		9CFB3AF71E577A44001645F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9CFB3AF91E577A44001645F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9CFB3AFA1E577A44001645F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9CFB3AFC1E577A44001645F3 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		9CFB3AFD1E577A44001645F3 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		9CFB3AFC1E577A44001645F3 /* RaffleEntryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RaffleEntryViewController.h; sourceTree = "<group>"; };
+		9CFB3AFD1E577A44001645F3 /* RaffleEntryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaffleEntryViewController.m; sourceTree = "<group>"; };
 		9CFB3AFF1E577A44001645F3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		9CFB3B001E577A44001645F3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		9CFB3B031E577A44001645F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +57,12 @@
 		9CFB3B1A1E577A44001645F3 /* RaffleFTWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaffleFTWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CFB3B1E1E577A44001645F3 /* RaffleFTWUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaffleFTWUITests.m; sourceTree = "<group>"; };
 		9CFB3B201E577A44001645F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CFB3B2C1E577F78001645F3 /* RaffleEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaffleEditViewController.h; sourceTree = "<group>"; };
+		9CFB3B2D1E577F78001645F3 /* RaffleEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaffleEditViewController.m; sourceTree = "<group>"; };
+		9CFB3B321E57805E001645F3 /* RaffleConfirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaffleConfirmViewController.h; sourceTree = "<group>"; };
+		9CFB3B331E57805E001645F3 /* RaffleConfirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaffleConfirmViewController.m; sourceTree = "<group>"; };
+		9CFB3B351E578230001645F3 /* RaffleWinnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaffleWinnerViewController.h; sourceTree = "<group>"; };
+		9CFB3B361E578230001645F3 /* RaffleWinnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaffleWinnerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +115,7 @@
 			children = (
 				9CFB3AF91E577A44001645F3 /* AppDelegate.h */,
 				9CFB3AFA1E577A44001645F3 /* AppDelegate.m */,
-				9CFB3AFC1E577A44001645F3 /* FirstViewController.h */,
-				9CFB3AFD1E577A44001645F3 /* FirstViewController.m */,
-				9CFB3AFF1E577A44001645F3 /* SecondViewController.h */,
-				9CFB3B001E577A44001645F3 /* SecondViewController.m */,
+				9CFB3B2F1E577F8A001645F3 /* Controller */,
 				9CFB3B021E577A44001645F3 /* Main.storyboard */,
 				9CFB3B051E577A44001645F3 /* Assets.xcassets */,
 				9CFB3B071E577A44001645F3 /* LaunchScreen.storyboard */,
@@ -143,6 +149,39 @@
 				9CFB3B201E577A44001645F3 /* Info.plist */,
 			);
 			path = RaffleFTWUITests;
+			sourceTree = "<group>";
+		};
+		9CFB3B2F1E577F8A001645F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9CFB3B301E57802E001645F3 /* Raffle */,
+				9CFB3B311E57803A001645F3 /* ImportExcel */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9CFB3B301E57802E001645F3 /* Raffle */ = {
+			isa = PBXGroup;
+			children = (
+				9CFB3AFC1E577A44001645F3 /* RaffleEntryViewController.h */,
+				9CFB3AFD1E577A44001645F3 /* RaffleEntryViewController.m */,
+				9CFB3B2C1E577F78001645F3 /* RaffleEditViewController.h */,
+				9CFB3B2D1E577F78001645F3 /* RaffleEditViewController.m */,
+				9CFB3B321E57805E001645F3 /* RaffleConfirmViewController.h */,
+				9CFB3B331E57805E001645F3 /* RaffleConfirmViewController.m */,
+				9CFB3B351E578230001645F3 /* RaffleWinnerViewController.h */,
+				9CFB3B361E578230001645F3 /* RaffleWinnerViewController.m */,
+			);
+			name = Raffle;
+			sourceTree = "<group>";
+		};
+		9CFB3B311E57803A001645F3 /* ImportExcel */ = {
+			isa = PBXGroup;
+			children = (
+				9CFB3AFF1E577A44001645F3 /* SecondViewController.h */,
+				9CFB3B001E577A44001645F3 /* SecondViewController.m */,
+			);
+			name = ImportExcel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,8 +321,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CFB3B011E577A44001645F3 /* SecondViewController.m in Sources */,
+				9CFB3B341E57805E001645F3 /* RaffleConfirmViewController.m in Sources */,
 				9CFB3AFB1E577A44001645F3 /* AppDelegate.m in Sources */,
-				9CFB3AFE1E577A44001645F3 /* FirstViewController.m in Sources */,
+				9CFB3AFE1E577A44001645F3 /* RaffleEntryViewController.m in Sources */,
+				9CFB3B371E578230001645F3 /* RaffleWinnerViewController.m in Sources */,
+				9CFB3B2E1E577F78001645F3 /* RaffleEditViewController.m in Sources */,
 				9CFB3AF81E577A44001645F3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

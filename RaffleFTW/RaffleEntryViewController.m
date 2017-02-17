@@ -1,18 +1,18 @@
 //
-//  FirstViewController.m
+//  RaffleEntryViewController.m
 //  RaffleFTW
 //
 //  Created by Jena Grafton on 2/17/17.
 //  Copyright © 2017 Bella Voce Productions. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "RaffleEntryViewController.h"
 
-@interface FirstViewController ()
+@interface RaffleEntryViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation RaffleEntryViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
